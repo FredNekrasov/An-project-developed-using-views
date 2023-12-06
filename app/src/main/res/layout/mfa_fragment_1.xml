@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/antiBrown"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".mfa.view_pager.chat.Fragment1">
+
+    <TextView
+        android:id="@+id/MessageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="@string/InfMFA"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/MessageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/brown"
+        android:ems="10"
+        android:hint="@string/Enter_messageMFA"
+        android:inputType="text"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/SMTF2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/brown"
+        android:text="@string/SendToAnotherFragmentMFA"
+        android:textColor="@color/antiBrown"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/SMTMF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/brown"
+        android:text="@string/SendToMainFragmentMFA"
+        android:textColor="@color/antiBrown"
+        android:textSize="14sp" />
+</LinearLayout>

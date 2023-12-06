@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".mfa.entrance.SignUp">
+
+    <TextView
+        android:id="@+id/FTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/RegistrationMFA"
+        android:textColor="@color/orange"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/AvatarIV"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/kot_spit"
+        android:visibility="invisible"
+        android:contentDescription="@string/AvatarMFA"/>
+
+    <Button
+        android:id="@+id/ChooseAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:text="@string/AvatarMFA"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/UNText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/orange"
+        android:hint="@string/User_nameMFA"
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/UserPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/orange"
+        android:hint="@string/PasswordMFA"
+        android:inputType="textPassword"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/orange"
+        android:hint="@string/SurnameMFA"
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/orange"
+        android:hint="@string/NameMFA"
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Patronymic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/orange"
+        android:hint="@string/PatronymicMFA"
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/SaveData2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:text="@string/SaveMFA"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/GoBackOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/Go_backMFA"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

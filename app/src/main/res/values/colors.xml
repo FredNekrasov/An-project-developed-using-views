@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#B200FF</color>
+    <color name="secondary">#CCCCCC</color>
+    <color name="icon_of_the_app_background">#B69CB8</color>
+    <color name="orange">#FFA500</color>
+    <color name="antiOrange">#005aff</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="purple">#3700B3</color>
+    <color name="yellow">#c8ff4c</color>
+    <color name="turquoise">#30d5c8</color>
+    <color name="crimson_red">#c51d34</color>
+    <color name="dark_green_tea">#BADBAD</color>
+    <color name="antiDGT">#452452</color>
+    <color name="brown">#7B3F00</color>
+    <color name="antiBrown">#84c0ff</color>
+    <color name="poisonous_green">#7FFF00</color>
+    <color name="antiPG">#8000ff</color>
+</resources>

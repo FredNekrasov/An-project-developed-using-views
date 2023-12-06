@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mfa_path"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.olympia.mfa.entrance.LogIn"
+        android:label="mfa_fragment_log_in"
+        tools:layout="@layout/mfa_fragment_log_in" >
+        <action
+            android:id="@+id/action_logIn_to_fragmentMain"
+            app:destination="@id/fragmentMain"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.olympia.mfa.FragmentMain"
+        android:label="mfa_fragment_main"
+        tools:layout="@layout/mfa_fragment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_logIn"
+            app:destination="@id/logIn"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_fragmentMain_to_signUp"
+            app:destination="@id/signUp"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_fragmentMain_to_mainEntertainment"
+            app:destination="@id/mainEntertainment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/mainEntertainment"
+        android:name="com.olympia.mfa.view_pager.MainEntertainment"
+        android:label="mfa_fragment_main_entertainment"
+        tools:layout="@layout/mfa_fragment_main_entertainment" >
+        <action
+            android:id="@+id/action_mainEntertainment_to_fragmentMain"
+            app:destination="@id/fragmentMain"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.olympia.mfa.entrance.SignUp"
+        android:label="mfa_fragment_sign_up"
+        tools:layout="@layout/mfa_fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_fragmentMain"
+            app:destination="@id/fragmentMain"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
